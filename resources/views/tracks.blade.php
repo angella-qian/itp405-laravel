@@ -1,10 +1,25 @@
 @extends('layout')
 
 <!-- Don't need closing tag with 2nd argument -->
-@section('title', 'Assignment 2 | Tracks')
+@section('title', 'Assignment 3 | Tracks')
 
 @section('main')
-  <h1>Associated Tracks</h1><br/>
+  <h1>Tracks</h1><br/>
+
+  <!-- NAV -->
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link active" href="/tracks">Tracks</a>
+      </li>
+    
+    <li class="nav-item">
+        <a class="nav-link" href="/genres">Genres</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/tracks/new">Add Track</a>
+    </li>    
+  </ul><br/>
+
   <table class="table">
     <tr>
       <th>Track Name</th>
