@@ -28,6 +28,7 @@
 	<script>
 
 		let connection = new WebSocket('ws://aqian-websocket-demo.herokuapp.com/');
+		// let connection = new WebSocket('ws://localhost:8080');
 
 		// Successfully connected to server
 		connection.onopen = () => {
@@ -57,7 +58,7 @@
 			// Send message when submit form
 			// Clear out the form
 			let message = document.querySelector('#doc').innerText;
-			
+
 			connection.send(message);
 		});
 
