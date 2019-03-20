@@ -17,7 +17,10 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" href="/tracks/new">Add Track</a>
-    </li>    
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/docs">Editable Document</a>
+    </li>     
   </ul><br/>
 
   <table class="table">

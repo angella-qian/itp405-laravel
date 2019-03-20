@@ -10,13 +10,12 @@
   <!-- NAV -->
   <ul class="nav nav-pills">
     <li class="nav-item">
-        <a class="nav-link" href="/tracks">Tracks</a>
+        <a class="nav-link active" href="/tracks">Tracks</a>
       </li>
     
     <li class="nav-item">
-        <a class="nav-link active" href="/genres">Genres</a>
-      </li>   
-  </ul><br/><hr/>
+        <a class="nav-link" href="/genres">Genres</a>
+    </li><hr/>
 
   <form action="/genres/" method="GET">
     <strong>Search for a genre</strong><br/>
