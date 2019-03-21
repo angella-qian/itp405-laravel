@@ -27,7 +27,7 @@
 
 	<script>
 
-		let connection = new WebSocket('ws://aqian-websocket-demo.herokuapp.com/');
+		let connection = new WebSocket('wss://aqian-websocket-demo.herokuapp.com/');
 		// let connection = new WebSocket('ws://localhost:8080');
 
 		// Successfully connected to server
